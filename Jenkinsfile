@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 script {
-                    sh 'python -c "print(\'Hello, World!\')"'
+                    sh 'python -c "print(\'Bye, World!\')"'
                 }
             }
         }
